@@ -21,9 +21,10 @@ select {background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px soli
 .info{ text-align: center;overflow: hidden;position: fixed;bottom: 0;width: 100%;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;} 
 .column {display: block; margin-right: 9%;border-radius: 5px;float: right;background: #F5F5DC;width: 20%;padding: 10px;height: 400px;font-family: 'Open Sans', sans-serif;} 
 .row:after {content: "";display: table;clear: both;}
-.imgservice {margin-right: 10%;float: right;width: 20%;padding: 10px;height: 200px; margin-top: 2%;position: sticky;
-  
-  
-  
+.imgservice {margin-right: 10%;float: right;width: 20%;padding: 10px;height: 200px; margin-top: 2%;position: sticky;}
 
+@media screen and (max-width: 768px)
+{
+    body {background: linear-gradient(to bottom, #00008B, #FFFFFF) fixed;}
+    
 }
