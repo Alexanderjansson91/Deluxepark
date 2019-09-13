@@ -1,6 +1,6 @@
 .header {background-color: #F5F5DC; Height: 17vh;}
 .footer {background-color: #F5F5DC ; height: 20vh; clear: both}
-.name {float: left; margin-top: 3%; margin-left: 3%; font-size: 7vh;font-family: 'Syncopate', sans-serif;color: #00008B;}
+.name {float: left; margin-top: 3%; margin-left: 3%; font-size: 7vh;max-width:100%;height:auto;font-family: 'Syncopate', sans-serif;color: #00008B;}
 body {background: linear-gradient(to bottom, #800000, #FFFFFF) fixed;}
 ul {list-style-type: none; margin: 0; padding:0;}
 li a {color: #00008B; padding: 8px 16px; text-decoration: none; Display: block;font-family: 'Rajdhani', sans-serif;border-radius: 5px}
@@ -12,12 +12,12 @@ img { margin-left: auto; margin-right: auto; width: 100%;}
 textarea{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;}
 input{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;}
 .imgcontact {width:23%;position: absolute;left: 70px;top: 235px; height: 28%;}
-.map {position: absolute;right: 150px;top: 170px;}
+.map {position: absolute;right: 100px;top: 170px;}
 .adress {position: absolute;left: 100px;top: 170px;font-family: 'Open Sans', sans-serif; }
 input[type=submit]:hover {background-color: #555555;font-family: 'Open Sans', sans-serif;}
 select {background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;}
 .imgbook {width:20%; position: absolute;left: 10vh;top: 284px; height: 20vh;}
-.line {overflow: hidden;position: absolute;bottom: 1vh;width: 100%;color:lightgrey; text-align: center;} 
+
 .info{ text-align: center;overflow: hidden;position: fixed;bottom: 0;width: 100%;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;} 
 .column {display: block; margin-right: 9%;border-radius: 5px;float: right;background: #F5F5DC;width: 20%;padding: 10px;height: 400px;font-family: 'Open Sans', sans-serif;} 
 .row:after {content: "";display: table;clear: both;}
@@ -26,5 +26,10 @@ select {background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px soli
 @media screen and (max-width: 768px)
 {
     body {background: linear-gradient(to bottom, #00008B, #FFFFFF) fixed;}
-    
+    .adress {position: absolute;left: 100px;top: 400px;font-family: 'Open Sans', sans-serif; }
+    .name {float: left; margin-top: 3%; margin-left: 3%; font-size: 3vh;max-width:100%;height:auto;font-family: 'Syncopate', sans-serif;color: #00008B;}
+    .column {display: block; margin-right: 9%;border-radius: 5px;float: right;background: #F5F5DC;width: 20%;padding: 1px;height: 300px;font-family: 'Open Sans', sans-serif;font-size:7px; position:static} 
+    .imgservice {margin-right: 10%;float: right;width: 10%;padding: 10px;height: 20px; margin-top: 2%;position: sticky;}
+    .imgcontact {width:23%;position: absolute;left: 200px;top: 150px; height: 28%;}
+    .imgbook {width:20%; position: absolute;left: 4vh;top: 284px; height: 20vh;}
 }
