@@ -90,7 +90,7 @@ header {
     right: 0;
     transform-origin: left;
     transform: scale(0, 1);
-    transition: transform ease-in-out 300ms;
+    transition: transform ease-in-out 500ms;
 }
 .tab-content li a:hover::before {
     transform: scale(1,1);
@@ -101,29 +101,23 @@ header {
     height: 3px;
     background: #fff;
     position: absolute;
-    top: -10px;
+    top: -5px;
     left: 0;
     right: 0;
     transform-origin: right;
     transform: scale(0, 1);
-    transition: transform ease-in-out 300ms;
+    transition: transform ease-in-out 500ms;
 }
 .tab-content li a:hover::after {
     transform: scale(1,1);
 }
-.content {
-    height: 150vh;
-    background-image: url(https://picsum.photos/1280?image=849);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 @media screen and (max-width: 1280px) {
     .nav-container {
         width: 100%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .tab-nav-label {
         display: grid;
         cursor: pointer;
