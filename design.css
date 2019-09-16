@@ -123,7 +123,7 @@ header {
         width: 100%;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
     .tab-nav-label {
         display: grid;
         cursor: pointer;
@@ -145,7 +145,7 @@ header {
         max-height: 400px;
     }
     .tab-content li {
-        padding: 10px 0;
+        padding: 20px 0;
     }
 }
 
