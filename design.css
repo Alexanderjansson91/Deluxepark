@@ -52,6 +52,7 @@ header {
     padding: 10px 0;
 }
 .logo {
+    font-family: 'Syncopate', sans-serif;
     text-decoration: none;
     color: #00008B;
     padding-left: 10px;
@@ -117,7 +118,7 @@ header {
         width: 100%;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
     .tab-nav-label {
         display: grid;
         cursor: pointer;
