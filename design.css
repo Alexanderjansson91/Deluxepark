@@ -90,7 +90,7 @@ header {
     right: 0;
     transform-origin: left;
     transform: scale(0, 1);
-    transition: transform ease-in-out 500ms;
+    transition: transform ease-in-out 300ms;
 }
 .tab-content li a:hover::before {
     transform: scale(1,1);
@@ -101,12 +101,12 @@ header {
     height: 3px;
     background: #fff;
     position: absolute;
-    top: -5px;
+    top: -10px;
     left: 0;
     right: 0;
     transform-origin: right;
     transform: scale(0, 1);
-    transition: transform ease-in-out 500ms;
+    transition: transform ease-in-out 300ms;
 }
 .tab-content li a:hover::after {
     transform: scale(1,1);
@@ -137,9 +137,9 @@ header {
         text-align: center;
         max-height: 0;
         overflow: hidden;
-        transition: all ease-in-out 2s;
-        -o-transition: all ease-in-out 2s;
-        -webkit-transition: all ease-in-out 2s;
+        transition: all ease-in-out 0.4s;
+        -o-transition: all ease-in-out 0.4s;
+        -webkit-transition: all ease-in-out 0.4s;
      }
     .nav-checkbox input:checked ~ .tab-content {
         max-height: 400px;
