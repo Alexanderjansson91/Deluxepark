@@ -4,7 +4,7 @@ body {background: linear-gradient(to bottom, #F5F5DC , #800000) fixed;}
 
 img { margin-left: auto; margin-right: auto; width: 100%;}
 .forma {text-align: center;font-family: 'Open Sans', sans-serif;color:white}
-textarea{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;color:white}
+textarea{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;color:black}
 input{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;}
 .imgcontact {width:23%;position: absolute;left: 70px;top: 235px; height: 28%;}
 .map {position: absolute;right: 100px;top: 170px;height: 50%;}
@@ -12,7 +12,7 @@ input{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid 
 input[type=submit]:hover {background-color: #555555;font-family: 'Open Sans', sans-serif;}
 select {background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;}
 .imgbook {width:20%; position: absolute;left: 10vh;top: 284px; height: 20vh;border-radius: 5px;}
-.infoabout { clear: both;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white;margin-left: 200px} 
+.infoabout {clear: both;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white;font-size:13px;margin-left: 200px} 
 .info2{ clear: both; text-align: center;width: 100%; bottom: 0;color:white;font-size:10px;font-family: 'Open Sans', sans-serif;color:white} 
 .column {display: block; margin-right: 9%;border-radius: 5px;float: right;background: #F5F5DC;width: 20%;padding: 10px;height: 400px;font-family: 'Open Sans', sans-serif;} 
 .row:after {content: "";display: table;clear: both;}
