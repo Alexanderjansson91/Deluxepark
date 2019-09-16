@@ -150,6 +150,33 @@ header {
 }
 
 
+@media screen and (max-width: 480px) {
+    .tab-nav-label {
+        display: grid;
+        cursor: pointer;
+        grid-column: 3;
+        padding-right: 10px;
+    }
+    .tab-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1/4;
+        text-align: center;
+        max-height: 0;
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
+        -o-transition: all ease-in-out 0.4s;
+        -webkit-transition: all ease-in-out 0.4s;
+     }
+    .nav-checkbox input:checked ~ .tab-content {
+        max-height: 400px;
+    }
+    .tab-content li {
+        padding: 20px 0;
+    }
+}
+
+
 
 @media all and (max-width: 670px)
 {
