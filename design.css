@@ -7,18 +7,32 @@ img { margin-left: auto; margin-right: auto; width: 100%;}
 textarea{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;color:black}
 input{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;}
 .imgcontact {width:23%;position: absolute;left: 70px;top: 235px; height: 28%;}
-.map {position: absolute;right: 100px;top: 170px;height: 50%;}
+.map {position: absolute;right: 100px;top: 170px; width:600px; height:450px;border:0px;border:0;}
 .adress {position: absolute;left: 250px;top: 170px;font-family: 'Open Sans', sans-serif;color:white }
 input[type=submit]:hover {background-color: #555555;font-family: 'Open Sans', sans-serif;}
 select {background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;}
 .imgbook {width:20%; position: absolute;left: 10vh;top: 284px; height: 20vh;border-radius: 5px;}
 .infoabout {clear: both;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white;font-size:13px;margin-left: 200px} 
 .info2{ clear: both; text-align: center;width: 100%; bottom: 0;color:white;font-size:10px;font-family: 'Open Sans', sans-serif;color:white} 
-.column {display: block; margin-right: 9%;border-radius: 5px;float: right;background: #F5F5DC;width: 20%;padding: 10px;height: 400px;font-family: 'Open Sans', sans-serif;} 
+.column {display: block; margin-right: 20%;border-radius: 5px;float: right;background: #F5F5DC;width: 20%;padding: 10px;height: 400px;font-family: 'Open Sans', sans-serif;} 
 .row:after {content: "";display: table;clear: both;}
 .imgservice {margin-right: 10%;float: right;width: 20%;padding: 10px;height: 200px; margin-top: 2%;position: sticky;}
 .imgabout {position: absolute;right: 100px;top: 170px;width: 20%}
 .info{ clear: both; text-align: center;position: absolute;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white} 
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:40%;
+    top:0;
+    height:40%;
+    width:50%;
+    position:absolute;
+    }
 
 a {cursor: pointer;}
 header {position: fixed;top: 0;z-index: 1000;width: 100%;background: linear-gradient(to bottom, #F5F5DC, #800000) fixed;}
@@ -75,7 +89,7 @@ header {position: fixed;top: 0;z-index: 1000;width: 100%;background: linear-grad
 @media all and (max-width: 670px)
 {
     
-    .adress {position: absolute;left: 100px;top: 400px;font-family: 'Open Sans', sans-serif; }
+    .adress {position: absolute;left: 100px;top: 500px;font-family: 'Open Sans', sans-serif; }
     .logo {float: left; margin-top: 3%; margin-left: 3%; font-size: 4vh;max-width:100%;height:auto;font-family: 'Syncopate', sans-serif;color: #00008B;}
 
     .column {margin-left:20px;display: block; border-radius: 5px;background: #F5F5DC;width: 20%;padding: 1px;height: 200px;font-family: 'Open Sans', sans-serif;font-size:7px; position:static;} 
@@ -89,6 +103,7 @@ header {position: fixed;top: 0;z-index: 1000;width: 100%;background: linear-grad
     a {display: block; padding: 8px;}
     .imgabout {position: absolute;right: 100px;top: 100px;width: 15%;}
     .infoabout { clear: both;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white;margin-left: 10px} 
+    .map-container iframe{ left:20%;top:0;height:50%;width:50%;position:absolute; }
   
 }
 
