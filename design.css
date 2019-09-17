@@ -19,7 +19,7 @@ select {background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px soli
 .imgservice {margin-right: 20%;float: right;width: 20%;padding: 10px;height: 200px; margin-top: 2%;position: sticky;}
 .imgabout {position: absolute;right: 100px;top: 170px;width: 20%}
 .info{ clear: both; text-align: center;position: absolute;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white} 
-.bokaservice {margin-right: 1%;margin-top:70px;float: right;width: 150%;padding: 10px;height: 400px; position: sticky;display: block; font-family: 'Open Sans', sans-serif;color:black}
+.bokaservice {margin-left: 10%;margin-top:70px;width: 200%;padding: 0px;height: 400px; position: sticky;display: block; font-family: 'Open Sans', sans-serif;color:black; list-style-type: none;}
 
 .phone {
     position: absolute;
@@ -102,7 +102,7 @@ header {position: fixed;top: 0;z-index: 1000;width: 100%;background: linear-grad
     .adress {position: absolute;left: 100px;top: 500px;font-family: 'Open Sans', sans-serif; }
     .logo {float: left; margin-top: 3%; margin-left: 3%; font-size: 4vh;max-width:100%;height:auto;font-family: 'Syncopate', sans-serif;color: #00008B;}
 
-    .column {margin-left:20px;display: block; border-radius: 5px;background: #F5F5DC;width: 50%;padding: 1px;height: 200px;font-family: 'Open Sans', sans-serif;font-size:7px; position:static;} 
+    .column {margin-right:120px;display: block; border-radius: 5px;background: #F5F5DC;width: 50%;padding: 1px;height: 200px;font-family: 'Open Sans', sans-serif;font-size:7px; position:static;} 
 
     .imgservice {margin-right: 10%;float: right;width: 10%;padding: 10px;height: 20px; margin-top: 2%;position: sticky;}
     .imgcontact {width:17%;position: absolute;left: 50px;top: 140px; height: 28%;}
