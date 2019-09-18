@@ -1,7 +1,6 @@
 
 
 body {background: linear-gradient(to bottom, #F5F5DC , #800000) fixed;margin: 0;padding: 0;box-sizing: border-box;font-family: 'Open Sans', sans-serif;}
-
 img { margin-left: auto; margin-right: auto; width: 100%;}
 .forma {text-align: center;font-family: 'Open Sans', sans-serif;color:white}
 textarea{background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px solid #ffffff;font-family: 'Open Sans', sans-serif;color:black}
@@ -20,28 +19,8 @@ select {background-color: #F5F5DC;border-radius: 5px;width: 35%;border: 2px soli
 .imgabout {position: absolute;right: 100px;top: 170px;width: 20%}
 .info{ clear: both; text-align: center;position: absolute;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white} 
 .bokaservice {margin-left: 10%;margin-top:70px;width: 200%;padding: 0px;height: 400px; position: sticky;display: block; font-family: 'Open Sans', sans-serif;color:black; list-style-type: none;}
-
-.phone {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    margin-top: 195px;
-    margin-right:90px;
-    font-family: 'Open Sans', sans-serif;color:white;
-    font-size:15px;
-}
-
-.bookphone
-{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    margin-top: 195px;
-    margin-right:90px;
-    font-family: 'Open Sans', sans-serif;color:white;
-    font-size:15px;
-}
-
+.phone {position: absolute;top: 0px;right: 0px;margin-top: 195px;margin-right:90px;font-family: 'Open Sans', sans-serif;color:white;font-size:15px;}
+.bookphone{position: absolute;top: 0px;right: 0px;margin-top: 195px;margin-right:90px;font-family: 'Open Sans', sans-serif;color:white;font-size:15px;}
 .map-container{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;top:10%;}
 .map-container iframe{left:0;top:30px;height:100%;width:100%;position:absolute;}
 a {cursor: pointer;}
@@ -59,51 +38,24 @@ header {position: fixed;top: 0;z-index: 1000;width: 100%;background: linear-grad
 .tab-content li a::after {content: '';display: block;height: 3px;background: #fff;position: absolute;top: -5px;left: 0;right: 0;transform-origin: right;transform: scale(0, 1);transition: transform ease-in-out 500ms;}
 .tab-content li a:hover::after {transform: scale(1,1);}
 
+
+
+
 @media screen and (max-width: 1280px) {
-    .nav-container {
-        width: 100%;
-    }
+    .nav-container {width: 100%;}
 }
 @media screen and (max-width: 768px) {
-    .tab-nav-label {
-        display: grid;
-        cursor: pointer;
-        grid-column: 3;
-        padding-right: 10px;
-    }
-    .tab-content {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-column: 1/4;
-        text-align: center;
-        max-height: 0;
-        overflow: hidden;
-        transition: all ease-in-out 0.4s;
-        -o-transition: all ease-in-out 0.4s;
-        -webkit-transition: all ease-in-out 0.4s;
-        orientation:portrait;
-     }
-    .nav-checkbox input:checked ~ .tab-content {
-        max-height: 400px;
-    }
-    .tab-content li {
-        padding: 20px 0;
-    }
+    .tab-nav-label {display: grid;cursor: pointer;grid-column: 3;padding-right: 10px;}
+    .tab-content {display: grid;grid-template-columns: 1fr;grid-column: 1/4;text-align: center;max-height: 0;overflow: hidden;
+        transition: all ease-in-out 0.4s;-o-transition: all ease-in-out 0.4s;-webkit-transition: all ease-in-out 0.4s;orientation:portrait;}
+    .nav-checkbox input:checked ~ .tab-content {max-height: 400px;}
+    .tab-content li {padding: 20px 0;}
 }
-
-
-
-
-
-
 @media all and (max-width: 670px)
-{
-    
+{ 
     .adress {position: absolute;left: 100px;top: 500px;font-family: 'Open Sans', sans-serif; }
     .logo {float: left; margin-top: 3%; margin-left: 3%; font-size: 4vh;max-width:100%;height:auto;font-family: 'Syncopate', sans-serif;color: #00008B;}
-
     .column {margin-right:120px;display: block; border-radius: 5px;background: #F5F5DC;width: 50%;padding: 1px;height: 200px;font-family: 'Open Sans', sans-serif;font-size:7px; position:static;} 
-
     .imgservice {margin-right: 10%;float: right;width: 10%;padding: 10px;height: 20px; margin-top: 2%;position: sticky;}
     .imgcontact {width:17%;position: absolute;left: 50px;top: 140px; height: 28%;}
     .imgbook {width:20%; position: absolute;left: 4vh;top: 310px; height: 20vh;}
@@ -115,7 +67,6 @@ header {position: fixed;top: 0;z-index: 1000;width: 100%;background: linear-grad
     .infoabout { clear: both;width: 100%; bottom: 0;color:black;font-size:10px;font-family: 'Open Sans', sans-serif;color:white;margin-left: 10px} 
     .map-container{overflow:hidden;padding-bottom:56.25%;position:relative;height:500px;top:10%;}
     .map-container iframe{left:0;top:30px;height:100%;width:100%;position:absolute;}
-  
 }
 
 
